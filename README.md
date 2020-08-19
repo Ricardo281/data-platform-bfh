@@ -1,10 +1,21 @@
-# Dataplatform on AWS Lightsail
+# Data Platform
+
+This platform has been generated using [Platys](http://github.com/trivadispf/platys).
+
+It contains the following services using docker containers:
+
+* Cassandra
+* Spark
+* Zeppelin
+* Python
+* Minio / S3
+* Streamsets
+
+## Provision on AWS Lightsail
 
 Navigate to the [AWS Console](http://console.aws.amazon.com) and login with your user. Click on the [Lightsail service](https://lightsail.aws.amazon.com/ls/webapp/home/instances).
 
 ![Alt Image Text](./images/lightsail-homepage.png "Lightsail Homepage")
-
-## Provision instance
 
 Click **Create instance** to navigate to the **Create an instance** dialog. 
 
